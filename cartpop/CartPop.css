@@ -1,0 +1,75 @@
+/* CartPopup.css */
+
+.cart-popup {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    z-index: 9999;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .cart-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .cart-item-description {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .cart-item-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .cart-item-remove {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .empty-cart-message {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+  }
+  
